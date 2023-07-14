@@ -1,0 +1,20 @@
+This assignment was locked Sep 27, 2022 at 7:29am.
+
+Please see Lab 3.pdf
+
+Download Lab 3.pdf  for instructions on completing this lab assignment.
+
+Lab 3 is due one minute before the lab section of week 6 (09/26 – 09/30). Students should demo their submission during class (or when convenient). Labs must be passed-off by a TA for credit.
+
+As this assignment is an HTML web page, zip the files such that when unzipped the structure is similar:
+
+/index.html
+
+/another_page.html
+
+/css/index.css
+
+/assets/some_asset.png
+
+For videos, try to use a publicly hosted video
+Links to an external site. to avoid a large submission file.
