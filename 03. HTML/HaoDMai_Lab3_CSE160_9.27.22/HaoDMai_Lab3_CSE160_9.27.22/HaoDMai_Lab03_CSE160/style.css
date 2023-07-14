@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Nunito", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+}
+
+.header {
+    width: 90%;
+    /* height: 90px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 8.4em;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+}
+
+.header nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 15px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    background: url("./images/dogs.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 89vh;
+    width: 100%;
+}
+
+.main h1 {
+    color: white;
+    font-size: 40px;
+    width: 60%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.section2,
+.section3,
+.section4,
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 98vh;
+    width: 100%;
+}
+
+.section2 h2,
+.section3 h2,
+.section4 h2 {
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+}
+
+.section2 p,
+.section3 p,
+.section4 p,
+.contact p {
+    width: 50%;
+    margin: 2em 0;
+    font-weight: 100;
+    font-size: 19px;
+    letter-spacing: 1;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.table td,
+th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.section3 img {
+    height: 200px;
+    width: 400px;
+}
+
+.section3 p,
+.section4 p,
+.contact p {
+    color: white;
+}
+
+.section2 button,
+.section3 button,
+.section4 button,
+.contact button {
+    padding: 1em 6%;
+    text-transform: uppercase;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 15px;
+}
+
+.contact button {
+    background: white;
+    color: black;
+}
+
+.header img {
+    height: 72px;
+}
+
+.section3 {
+    height: 100vh;
+    background-image: url("./images/blacktable.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.section3 .para {
+    font: 900;
+    font-size: 25px;
+    color: black;
+}
+
+.section4 {
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 90vh;
+}
+
+.contact {
+    background-color: black;
+}
+
+.contact h2 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+}
+
+footer {
+    width: 85%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+.footer-left img {
+    height: 40px;
+}
+
+.footer-right .social-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-right .social-buttons img {
+    width: 35px;
+    margin: 5px;
+}
+
+.footer-right .footer-buttons a {
+    text-decoration: none;
+    color: rgba(27, 27, 27, 0.8);
+    margin: 0 5px;
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+.footer-right .footer-buttons a:hover {
+    color: black;
+}

@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Grading App</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+
+        <script src="https://amhep.pythonanywhere.com"></script>
+
+        <style>
+            @media only screen and (min-width: 0px) {
+                .output { 
+                    overflow-y: auto;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="grid-container">
+
+            <div class="forms">
+                <button type="button" class="my-box" onclick="func1()">Get the student grade!</button>
+                <button type="button" class="my-box" onclick="func2()">Get all students and their grades!</button>
+                <button type="button" class="my-box" onclick="func3()">POST a new Student and Grade!</button>
+                <button type="button" class="my-box" onclick="func4()">PUT a student's Grade!</button>
+                <button type="button" class="my-box" onclick="func5()">DELETE a Student!</button>
+            </div>
+
+            <div class="output">
+                <div id="demo"></div>
+            </div>
+
+        </div>
+    </body>
+
+</html>
